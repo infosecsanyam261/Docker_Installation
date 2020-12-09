@@ -24,4 +24,4 @@ Install-Module -Name DockerMsftProvider -Force
 Get-ExecutionPolicy
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Install-Package -Name docker -ProviderName DockerMsftProvider -Force
-```
+
